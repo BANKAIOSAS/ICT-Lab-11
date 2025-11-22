@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Portfolio Styles.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-warning" aria-current="page">
+
+      <div class="container-fluid">
+        <img class="navbar-brand mt-1 d-none d-md-block d-lg-block" style="width: 120px; height: 120px;" src="./Images/Header Logotype.png" alt="Logotype">
+        <a href="#" class="navbar-brand me-5 text-light fw-bold fs-4">Супер Верстальщик</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav me-5 ms-5 mb-lg-0 gap-2">
+            <li class="nav-item">
+              <a href="#" class="nav-link navbar-text text-light active fw-bold fs-5">Обо Мне</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link navbar-text text-light fw-bold fs-5">Мои Навыки</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link navbar-text text-light fw-bold fs-5">Мои Работы</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link navbar-text text-light fw-bold fs-5">Отзывы</a>
+            </li>
+          </ul>
+          <div class="button__container text-center d-flex flex-lg-nowrap">
+            <a href="#" class="btn btn-primary me-2 rounded-pill pt-3 pb-3 pr-2 pl-2">Связаться</a>
+            <a href="#" class="btn btn-success rounded-pill pt-3 pb-3 pr-2 pl-2">Скачать Резюме</a>
+          </div>
+        </div>
+
+      </div>
+
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+
+  <main>
+
+    <!-- About Me -->
+
+    <section class="about__me">
+      <div class="container-fluid d-flex justify-content-center align-items-center flex-wrap-reverse flex-lg-nowrap">
+
+        <div class="container col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">
+          <span class="fw-bold fs-4 text-success mb-3">Приветствую!</span>
+          <h1 class="fw-normal">Я имею хороший опыт <br> в вёрстке сайтов на Boostrap</h1>
+          <p class="fw-normal">Меня зовут Артём. Я являюсь начинающим верстальщиком <br> как на обычном HTML, CSS и JS, так и на библиотеке Bootstrap. <br> Уже 6 месяцев я обучаюсь в Академии Программирования Моррисон, <br> а также в свободное время верстаю сайты, накапливая опыт.</p>
+          <a class="btn btn-warning text-light rounded-pill pt-3 pb-3 pr-2 pl-2" href="#">К Порфтолио</a>
+        </div>
+
+        <div class="container col-lg-6 col-md-6 col-sm-12">
+          <img class="w-100 rounded" src="./Images/About Me Image 2.jpg" alt="Image">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Benefits -->
+
+    <section class="benefits">
+      <div class="container-fluid d-flex justify-content-center align-items-center text-center">
+
+        <div class="container border-end border-5 border-success">
+          <h1 class="text-success fw-bold">60+</h1>
+          <h4>Уроков Пройденно</h4>
+        </div>
+
+        <div class="container border-end border-5 border-success">
+          <h1 class="text-success fw-bold">4+</h1>
+          <h4>Сайтов Свёрстано</h4>
+        </div>
+
+        <div class="container">
+          <h1 class="text-success fw-bold">10+</h1>
+          <h4>Людей Заинтересовано</h4>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- My Skills -->
+
+    <section class="my__skills">
+      <div class="container-fluid d-flex justify-content-center align-items-center flex-wrap-reverse flex-lg-nowrap">
+
+        <div class="container col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column justify-content-center align-items-center">
+          <span class="text-success fw-bold fs-4">Мои Умения</span>
+          <h1>Почему меня стоит нанять?</h1>
+          <p>Я - начинающий верстальщик. Однако имею фундаментальные <br> для программиста черты характера. <br> Я ответсвенен, усидчив и всегда довожу работу до конца.</p>
+          <div class="button__container text-center">
+            <a class="btn btn-warning text-light pt-3 pb-3 pr-2 pl-2 rounded-pill mb-3" href="#">Нанять Меня</a>
+          </div>
+        </div>
+
+        <div class="container-fluid d-flex gap-lg-5 gap-md-3 gap-sm-1 gap-xs-1 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="column d-flex flex-column justify-content-center align-items-center">
+            <div class="card mb-2" style="width: 15rem;">
+              <img class="ms-2 mt-2" src="./Images/HTML Logotype.png" alt="Image" style="width: 50px;">
+              <div class="card-body">
+                <h4 class="card-title">HTML</h4>
+                <p class="card-text">Умею создавать семантичную разметку HTML</p>
+              </div>
+            </div>
+            <div class="card" style="width: 15rem;">
+              <img class="ms-3 mt-2" src="./Images/CSS Logotype.png" alt="Image" style="width: 40px;">
+              <div class="card-body">
+                <h4 class="card-title">CSS</h4>
+                <p class="card-text">Умею правильно стилизовать элементы в CSS</p>
+              </div>
+            </div>
+          </div>
+          <div class="column d-flex flex-column justify-content-center align-items-center">
+            <div class="card mb-2" style="width: 15rem; height: 12rem;">
+              <img class="ms-2 mt-2" src="./Images/Bootstrap Logotype.png" alt="Image" style="width: 60px;">
+              <div class="card-body">
+                <h4 class="card-title">Bootstrap</h4>
+                <p class="card-text">Умею верстать сайты с помощью библиотеки Bootstrap</p>
+              </div>
+            </div>
+            <div class="card" style="width: 15rem; height: 13rem;">
+              <img class="ms-3 mt-2" src="./Images/Java Script Logotype.png" alt="Image" style="width: 90px;">
+              <div class="card-body">
+                <h4 class="card-title">JS</h4>
+                <p class="card-text">Имею начальные знания в Java Script</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+
+    <section class="portfolio">
+      <div class="container-fluid d-flex justify-content-center align-items-center flex-wrap flex-lg-nowrap">
+
+        <div class="container col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex flex-column ms-5">
+          <span class="text-success fw-bold fs-4">Порфтолио</span>
+          <h1>Мои Новейшие Проекты</h1>
+          <p>Здесь я выбрал мои новейшие и лучшие проекты, чтобы поделиться с вами</p>
+          <div class="button__container text-center">
+            <a class="btn btn-warning text-light pt-3 pb-3 pr-2 pl-2 rounded-pill mb-3" href="#">Больше</a>
+          </div>
+        </div>
+
+        <div class="container col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+          <div id="carouselProjects" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Images/Coding Academy Site Image.png" class="d-block" style="max-width: 100%; height: auto;" alt="Image">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/Bootstrap Project Site Image.png" class="d-block" style="max-width: 100%; height: auto;" alt="Image">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/Shopify Site Image.png" class="d-block" style="max-width: 100%; height: auto;" alt="Image">
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/DST Site Image.png" class="d-block" style="max-width: 100%; height: auto;" alt="Image">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjects" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProjects" data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+              <span class="visually-hidden">Следующий</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Tetsimonials -->
+
+    <section class="testimonials">
+      <div class="container-fluid">
+
+        <div class="container">
+          <span class="text-success fw-bold fs-4">Отзывы</span>
+          <h1>Что люди говорят обо мне</h1>
+        </div>
+
+        <div class="container">
+          <ul class="list-group d-flex flex-row gap-5 mt-5 flex-wrap flex-lg-nowrap">
+            <li class="list-group-item rounded border border-3 border-dark">
+              <div class="rating mb-3 ">
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+              </div>
+              <h3>Хорошая Работа!</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eos quas nam laudantium illo laboriosam.</p>
+              <span>А.С.Пушкин</span>
+            </li>
+            <li class="list-group-item rounded border border-3 border-dark">
+              <div class="rating mb-3">
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+              </div>
+              <h3>Перспективный Верстальщик!</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eos quas nam laudantium illo laboriosam.</p>
+              <span>Н.В.Гоголь</span>
+            </li>
+            <li class="list-group-item rounded border border-3 border-dark">
+              <div class="rating mb-3">
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+                <img src="./Images/Rating Star.png" alt="Image" class="Star" />
+              </div>
+              <h3>Отличная Верстка!</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eos quas nam laudantium illo laboriosam.</p>
+              <span>Л.Н.Толстой</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="contact">
+      <div class="container-fluid">
+
+        <div class="container-fluid d-flex flex-column text-center mb-5">
+          <span class="text-success fw-bold fs-4">Связаться</span>
+          <h1>Для обсуждения заказа заполните форму</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cum architecto, dolores porro accusamus explicabo? </p>
+        </div>
+
+        <div class="container-fluid d-flex mt-5 flex-wrap flex-lg-nowrap">
+          <div class="container col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-5">
+            <ul class="list d-flex flex-column gap-5 text-center">
+              <li class="list-group-item">
+                <img style="width: 40px;" src="./Images/Phone Icon.png" alt="Icon"> +77714464503
+              </li>
+              <li class="list-group-item">
+                <img style="width: 40px;" src="./Images/Email Icon.png" alt="Icon"> chumachenko.tyoma@mail.ru
+              </li>
+              <li class="list-group-item" >
+                <img style="width: 40px;" src="./Images/Address Icon.png" alt="Icon"> Казахстан, г.Алматы, мкр.Мамыр-4
+              </li>
+            </ul>
+          </div>
+          <div class="container col-lg-8 col-md-6 col-sm-12 col-xs-12">
+            <div class="row">
+              <form class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                <label class="form-label text-dark fw-bold">Ваше Имя/Фамилия</label>
+                <input class="form-control" type="text" placeholder="Ваше Имя/Фамилия">
+              </form>
+              <form class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                <label class="form-label text-dark fw-bold">Ваша Почта</label>
+                <input class="form-control" type="email" placeholder="Ваша Почта">
+              </form>
+            </div>
+            <div class="row">
+              <form class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                <label class="form-label text-dark fw-bold">Ваш Номер Телефона</label>
+                <input class="form-control" type="number" placeholder="Ваш Номер Телефона">
+              </form>
+              <form class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                <label class="form-label text-dark fw-bold">Бюджет Заказа</label>
+                <input class="form-control" type="number" placeholder="Бюджет Заказа">
+              </form>
+            </div>
+            <div class="row">
+              <form class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <label class="form-label text-dark fw-bold">Сообщение</label>
+                <textarea class="form-control" id="textarea" rows="3"></textarea>
+              </form>
+            </div>
+            <div class="button__container text-center mt-3">
+              <button class="btn btn-success">Отправить</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+
+  <footer class="footer border-top border-3 border-dark">
+    <div class="container-fluid d-flex justify-content-center align-items-center flex-wrap flex-lg-nowrap text-center">
+
+      <div class="container">
+        @2023. All Rights Reserved
+      </div>
+
+      <div class="container">
+        Создано Чумаченко Артёмом
+      </div>
+
+      <div class="container">
+        <ul class="list d-flex justify-content-center align-items-center gap-3 mt-3">
+          <li class="list-group-item">
+            <a href="#"><img style="width: 40px;" src="./Images/Whatsapp.png" alt="Image"></a>
+          </li>
+          <li class="list-group-item">
+            <a href="#"><img style="width: 40px;" src="./Images/Linkedin.png" alt="Image"></a>
+          </li>
+          <li class="list-group-item">
+            <a href="#"><img style="width: 40px;" src="./Images/Discrod.png" alt="Image"></a>
+          </li>
+          <li class="list-group-item">
+            <a href="#"><img style="width: 40px;" src="./Images/Facebook.png" alt="Image"></a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
